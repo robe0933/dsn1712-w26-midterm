@@ -1,32 +1,157 @@
 
+body {
+    margin:0;
+    font-family:'Montserrat',sans-serif;
+    background-color: #0b0f1a;
+    line-height: 1.6;
+    color: #f4f4f4;
+}
+/*Body: margin 0, font family: 'Montserrat', sans-serif, background color #0b0f1a, text color #f4f4f4, line height 1.6 */
+
+nav {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a:link {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #c6a85b; 
+}
+
+a:visited {
+    color: #c6a85b; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #9aa0a6;
+}
+
+/*Nav: center alignment, margin-top 40px
+
+Links (default): font size 14px, text color #c6a85b, text transformed to uppercase, margin-left 20px, margin-right 20px, text-decoration none, letter spacing of 2px 
+
+Links (hover state): text-decoration set to underline, text color #9aa0a6 */
+
+
+h1 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 64px;
+    color: #c6a85b;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+/*h1: font family 'Cormorant Garamond', font size 64px, #c6a85b, centered, margin-top 80px, margin-bottom 20px, uppercase */
+
+
+h2 {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 36px;
+    color: #c6a85b;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+/* h2: font family 'Cormorant Garamond', font size 36px, #c6a85b, margin-top 100px, margin-bottom 20px, letter spacing 1px */
+
+h3 {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #9aa0a6;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+/*h3: font family 'Montserrat', font size 14px, #9aa0a6, uppercase, margin-top 40px, margin-bottom 10px, letter spacing 2px */
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/*p: font size 18px, margin-bottom 20px */
+
+blockquote {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+/*blockquote: margin top 70px, margin bottom 70px*/
+
+
+blockquote p {
+    font-size: 24px;
+    color: #c6a85b;
+    font-style: italic;
+    text-align: center;
+}
+/*blockquote p: font size 24px, #c6a85b, italic, centered,*/
+
+
+ul {
+    margin-top: 20opx;
+    margin-bottom: 40px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+/*ul: margin top 20px, margin bottom 40px
+li: font size 18px, margin bottom 12px */
+
+
+#hero h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+    padding-bottom: 60px;
+}
+
+#hero img {
+    width: 100%;
+}
+/*Page title (h1) styled under typography rules
+Subtitle font: font size 20px, #9aa0a6
+Hero image: width 100% */
 
 
 
+main section {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/*All section elements: padding left 60px, padding-right 60px*/
+
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: #000;
+}
+/*footer: font size 14px, text centered, padding top 50px, padding bottom 50px, margin top 100px, background color #000 (black)*/
 
 
 
+/*Additional CSS Requirement
+You may use any selectors you prefer; however, your stylesheet must clearly demonstrate the following four types of CSS selectors:
 
+At least one HTML tag selector (example: body, h1, p)
+At least one descendant selector (example: targeting links inside nav)
+At least one class selector
+At least one ID selector
+You are not restricted to only these selectors, but all four must appear in your CSS.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Failure to demonstrate all four targeting methods will result in a deduction.
 
 
 
