@@ -13,7 +13,8 @@ nav {
     margin-top: 40px;
 }
 
-a:link {
+nav a:link,
+nav a:visited {
     font-size: 14px;
     text-transform: uppercase;
     margin-left: 20px;
@@ -23,11 +24,11 @@ a:link {
     color: #c6a85b; 
 }
 
-a:visited {
+/* a:visited {
     color: #c6a85b; 
-}
+} */
 
-a:hover {
+nav a:hover {
     text-decoration: underline;
     color: #9aa0a6;
 }
