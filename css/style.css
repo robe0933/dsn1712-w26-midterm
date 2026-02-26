@@ -95,7 +95,7 @@ blockquote p {
 
 
 ul {
-    margin-top: 20opx;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -107,7 +107,7 @@ li {
 li: font size 18px, margin bottom 12px */
 
 
-#hero h3 {
+.subtitle {
     font-size: 20px;
     text-align: center;
     text-transform: none;
