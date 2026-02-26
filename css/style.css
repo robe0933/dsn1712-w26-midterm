@@ -111,7 +111,7 @@ li: font size 18px, margin bottom 12px */
     font-family:'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    padding-bottom: 60px;
+    margin-bottom: 40px;
     color: #9aa0a6;
 }
 
@@ -120,7 +120,8 @@ li: font size 18px, margin bottom 12px */
 }
 /*Page title (h1) styled under typography rules
 Subtitle font: font size 20px, #9aa0a6
-Hero image: width 100% */
+Hero image: width 100% 
+--Subtitle: font size 20px, #9aa0a6, margin bottom of 40px*/
 
 
 
